@@ -1,0 +1,6 @@
+/* stylelint-disable selector-list-comma-newline-after */
+.card-img-right {
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+  }
+  
