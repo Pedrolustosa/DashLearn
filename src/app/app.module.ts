@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AlunoComponent } from './aluno/aluno.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ProfessorComponent } from './professor/professor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlunoComponent
+    AlunoComponent,
+    ProfessorComponent
   ],
   imports: [
     BrowserModule,
