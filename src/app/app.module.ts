@@ -7,6 +7,9 @@ import { AlunoComponent } from './aluno/aluno.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProfessorComponent } from './professor/professor.component';
 import { HomeComponent } from './home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +21,9 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
