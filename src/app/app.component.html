@@ -1,27 +1,57 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center justify-content-center">
-    <div class="">
-        <a class="navbar-brand" routerLink="/"><img src="/assets/image/logo.png" alt="image" class="img-thumbnail"
-                style="width: 100px; height: 60px; border-radius: 30%;"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav font-weight-bold">
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/alunos">Aluno</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/professores">Professores</a>
-                </li>
-            </ul>
+<!-- Top Nav -->
+<div style="background-image: linear-gradient(90deg, #74b9ff, #81ecec)">
+  <div class="container mx-auto">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="mr-auto">
+        <a class="mr-2" href="https://www.linkedin.com/in/pedro-henrique-lustosa-e-silva-29b827144/" target="_blank"><i
+            class="fab fa-linkedin linkedin"></i></a>
+        <a class="mr-2" href="https://github.com/Pedrolustosa" target="_blank"><i class="fab fa-github github"></i></a>
+        <a class="mr-2" href="mailto:pedroeternalss@gmail.com" target="_blank"><i
+            class="fas fa-envelope-open-text email"></i></a>
+      </div>
+      <div class="ml-auto">
+        <a href="#" class="flag"><img src="../assets/image/flag/brazil.png" class="mr-1"></a>
+        <a href="#" class="flag"><img src="../assets/image/flag/united state.png" class="mr-1"></a>
+        <div class="dropdown">
+          <button class="btn btn-sm btn-outline-info">Acessar</button>
+          <div class="dropdown-content">
+            <a href="#">Login</a>
+            <a href="#">Registrar</a>
+          </div>
         </div>
+      </div>
     </div>
-</nav>
+  </div>
+</div>
+<!-- Top Nav -->
+
+<!-- Header Navbar -->
+<header class="fixed-navbar">
+  <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light bg-light bg-gradient">
+    <button class="navbar-toggler ml-auto m-1" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <div class="container">
+        <ul class="navbar-nav mx-auto" role="tablist">
+          <li class="nav-item p-2">
+            <a class="btncustom" routerLink="/">Home</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="btncustom" routerLink="/alunos">Alunos</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="btncustom" routerLink="/professores">Professores</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+</header>
+<!-- Header Navbar -->
 
 <div>
-    <router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 </div>
