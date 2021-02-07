@@ -3,6 +3,7 @@
 .linkedin,
 .github,
 .email {
+  transition: .9s;
   color: rgba(243, 239, 239, 0.95);
 }
 
@@ -23,6 +24,8 @@
 
 .flag {
   opacity: .3;
+  height: 25px; 
+  width: 25px;
   transition: 0.8s;
 }
 
@@ -47,19 +50,20 @@
 
 /* Button */
 .btncustom {
+  opacity: .3;
+  padding: 10px;
   color: black;
-  opacity: .5;
-  padding: 6px;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 2px;
   text-decoration: none;
   background: transparent;
+  transition: .9s;
 }
 
 .btncustom:hover {
-  opacity: 0.9;
-  transition: 0.9s;
+  opacity: .9;
+  transition: .9s;
   border-bottom: .1rem solid black;
 }
 
@@ -70,20 +74,21 @@
 /* button Dropdown custom */
 .btn {
   border: none;
-  cursor: pointer;
-  opacity: 0.4;
+  opacity: .3;
+  padding: 10px;
   color: black;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
-  padding: 5px 21px;
-  border-radius: 30%;
-  background-color: transparent;
-  transition: 0.9s;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background: transparent;
+  transition: .9s;
 }
 
 .btn:hover {
-  opacity: 0.9;
-  box-shadow: .1rem .3rem .7rem rgba(0, 0, 0, .35);
+  opacity: .9;
+  transition: .9s;
+  border-bottom: .1rem solid black;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -97,7 +102,6 @@
   display: none;
   z-index: 1;
   opacity: 0.9;
-  border-radius: 22%;
   position: absolute;
   background: #81ecec;
 }
@@ -109,14 +113,13 @@
   font-size: 12px;
   font-weight: bold;
   text-align: center;
-  border-radius: 30%;
   padding: 5px 18px;
   text-decoration: none;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  border: 1px solid #fff;
+  border-bottom: .1rem solid black;
   box-shadow: .1rem .3rem .7rem rgba(0, 0, 0, .35);
 }
 
