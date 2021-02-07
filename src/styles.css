@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(#34495e, #e74c3c);
+  background: #85f3d6;
   border-radius: 1px;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
 }
