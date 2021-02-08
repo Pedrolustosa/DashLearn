@@ -9,6 +9,7 @@ import { ProfessorComponent } from './professor/professor.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     AppComponent,
     AlunoComponent,
     ProfessorComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
