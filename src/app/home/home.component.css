@@ -66,6 +66,44 @@
 
 /* About */
 
+/* Counts */
+.counts {
+  padding-bottom: 30px;
+}
+
+.iconcount {
+  font-size: 48px;
+}
+
+.counts .count-box {
+  box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.counts .count-box i {
+  display: block;
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+
+.counts .count-box span {
+  font-size: 42px;
+  display: block;
+  font-weight: 700;
+  color: #1c5c93;
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+/* Counts */
+
 /* Why Us */
 .why-us {
   background: #f5f6fa
@@ -82,6 +120,10 @@
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
+}
+
+.textwhy-us{
+  font-weight: bold;
 }
 
 .why-us .content p {
@@ -295,22 +337,31 @@ ul {
 /* Section Footer */
 #footer {
   color: #444444;
+  font-weight: bold;
   font-size: 14px;
   background: #f1f0f2;
 }
 
-.flag img{
+#footer .flag img {
   opacity: .3;
-  height: 45px; 
-  width: 45px;
+  height: 25px;
+  width: 25px;
+  margin: 2px;
   transition: 0.9;
-}.flag:hover img{
+}
+
+#footer .flag:hover img {
   opacity: .9;
   transition: 0.9;
 }
 
+#footer input {
+  border-radius: 15px;
+}
+
 #footer .btn {
-  font-size: 16px;
+  float: right;
+  font-size: 14px;
   font-weight: bold;
   border-radius: 21px;
   transition: .9s;
@@ -342,7 +393,7 @@ ul {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #777777;
+  color: #000000;
 }
 
 #footer .footer-top h4 {
@@ -381,7 +432,7 @@ ul {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #000000;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -390,10 +441,6 @@ ul {
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
   color: #009970;
-}
-
-#footer .footer-newsletter {
-  font-size: 15px;
 }
 
 #footer .footer-newsletter h4 {

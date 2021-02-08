@@ -1,5 +1,10 @@
 /* Style icon Top navbar */
 
+.logo{
+  height: 35px; 
+  width: 35px;
+}
+
 .linkedin,
 .github,
 .email {
